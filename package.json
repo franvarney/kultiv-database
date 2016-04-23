@@ -1,0 +1,19 @@
+{
+  "name": "kultiv-database",
+  "version": "0.0.0",
+  "description": "Kultiv database migrations and seeds using Knex.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franvarney/kultiv-database.git"
+  },
+  "author": "Fran Varney <fran.varn@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franvarney/kultiv-database/issues"
+  },
+  "homepage": "https://github.com/franvarney/kultiv-database#readme"
+}
