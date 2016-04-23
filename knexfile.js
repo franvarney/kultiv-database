@@ -9,6 +9,9 @@ module.exports = {
     migrations: {
       directory: './migrations',
       tableName: 'knex_migrations'
+    },
+    seeds: {
+      directory: './seeds'
     }
   },
   staging: {
@@ -21,6 +24,9 @@ module.exports = {
     migrations: {
       directory: './migrations',
       tableName: 'knex_migrations'
+    },
+    seeds: {
+      directory: './seeds'
     }
   },
   production: {
@@ -33,6 +39,9 @@ module.exports = {
     migrations: {
       directory: './migrations',
       tableName: 'knex_migrations'
+    },
+    seeds: {
+      directory: './seeds'
     }
   }
 };
