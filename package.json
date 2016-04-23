@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/franvarney/kultiv-database/issues"
   },
-  "homepage": "https://github.com/franvarney/kultiv-database#readme"
+  "homepage": "https://github.com/franvarney/kultiv-database#readme",
+  "dependencies": {
+    "knex": "0.10.0"
+  }
 }
