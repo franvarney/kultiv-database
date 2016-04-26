@@ -1,3 +1,5 @@
+const Uuid = require('uuid4')
+
 const TABLE_NAME = 'users'
 
 exports.seed = function (knex, Promise) {

@@ -1,4 +1,4 @@
-const TABLE_NAME = 'recipes_directions'
+const TABLE_NAME = 'recipes_ingredients'
 
 exports.seed = function (knex, Promise) {
   return Promise.join(

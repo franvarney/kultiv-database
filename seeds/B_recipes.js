@@ -14,7 +14,7 @@ exports.seed = function (knex, Promise) {
       description: 'Too darn good',
       source_type: 'manual',
       is_private: true,
-      deleted_at: false
+      deleted_at: new Date().toLocaleString()
     }),
     knex(TABLE_NAME).insert({
       user_id: 2,
