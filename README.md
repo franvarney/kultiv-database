@@ -1,7 +1,7 @@
 # kultiv-database
 
 ## Install
-`npm Install`
+`npm install`
 
 ## Migrations
 
@@ -19,6 +19,7 @@ or
 `knex migrate:rollback`
 
 ## Seeds
+Note: Files prefixed with a number are executed before ones without.
 
 ### Create a seed
 `knex seed:make seed_name`
