@@ -1,6 +1,6 @@
-const TABLE_NAME = 'users';
+const TABLE_NAME = 'users'
 
-exports.seed = function(knex, Promise) {
+exports.seed = function (knex, Promise) {
   return Promise.join(
     knex(TABLE_NAME).del(),
 
@@ -35,5 +35,5 @@ exports.seed = function(knex, Promise) {
         is_admin: false,
         auth_token: Uuid()
     })
-  );
-};
+  )
+}

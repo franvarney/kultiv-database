@@ -1,6 +1,6 @@
-const TABLE_NAME = 'ingredients';
+const TABLE_NAME = 'ingredients'
 
-exports.seed = function(knex, Promise) {
+exports.seed = function (knex, Promise) {
   return Promise.join(
     knex(TABLE_NAME).del(),
 
@@ -34,5 +34,5 @@ exports.seed = function(knex, Promise) {
       food_id: 1,
       optional: false
     })
-  );
-};
+  )
+}

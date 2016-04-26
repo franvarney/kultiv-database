@@ -1,6 +1,6 @@
-const TABLE_NAME = 'cookbooks';
+const TABLE_NAME = 'cookbooks'
 
-exports.seed = function(knex, Promise) {
+exports.seed = function (knex, Promise) {
   return Promise.join(
     knex(TABLE_NAME).del(),
 
@@ -35,6 +35,6 @@ exports.seed = function(knex, Promise) {
       name: 'Cookbook 32',
       description: 'This is cookbook #32',
       is_private: true
-    }),
-  );
-};
+    })
+  )
+}

@@ -1,6 +1,6 @@
-const TABLE_NAME = 'friends';
+const TABLE_NAME = 'friends'
 
-exports.seed = function(knex, Promise) {
+exports.seed = function (knex, Promise) {
   return Promise.join(
     knex(TABLE_NAME).del(),
 
@@ -19,5 +19,5 @@ exports.seed = function(knex, Promise) {
       recipient_id: 1,
       status: 'rejected'
     })
-  );
-};
+  )
+}

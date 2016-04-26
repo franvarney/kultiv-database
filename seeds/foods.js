@@ -1,6 +1,6 @@
-const TABLE_NAME = 'foods';
+const TABLE_NAME = 'foods'
 
-exports.seed = function(knex, Promise) {
+exports.seed = function (knex, Promise) {
   return Promise.join(
     knex(TABLE_NAME).del(),
 
@@ -12,5 +12,5 @@ exports.seed = function(knex, Promise) {
     knex(TABLE_NAME).insert({ name: 'sugar' }),
     knex(TABLE_NAME).insert({ name: 'flour' }),
     knex(TABLE_NAME).insert({ name: 'sharp cheddar cheese' })
-  );
-};
+  )
+}

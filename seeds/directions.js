@@ -1,6 +1,6 @@
-const TABLE_NAME = 'directions';
+const TABLE_NAME = 'directions'
 
-exports.seed = function(knex, Promise) {
+exports.seed = function (knex, Promise) {
   return Promise.join(
     knex(TABLE_NAME).del(),
 
@@ -22,5 +22,5 @@ exports.seed = function(knex, Promise) {
     knex(TABLE_NAME).insert({
       direction: 'There really needs to be more directions here than just one line.'
     })
-  );
-};
+  )
+}

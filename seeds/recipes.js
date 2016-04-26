@@ -1,6 +1,6 @@
-const TABLE_NAME = 'recipes';
+const TABLE_NAME = 'recipes'
 
-exports.seed = function(knex, Promise) {
+exports.seed = function (knex, Promise) {
   return Promise.join(
     knex(TABLE_NAME).del(),
 
@@ -40,5 +40,5 @@ exports.seed = function(knex, Promise) {
       source_value: 'http://www.google.com/',
       is_private: false
     })
-  );
-};
+  )
+}
