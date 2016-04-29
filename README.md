@@ -15,6 +15,10 @@ or
 
 `NODE_ENV=production knex migrate:latest`
 
+or
+
+`NODE_ENV=production npm run migrate`
+
 ### Rollback
 `knex migrate:rollback`
 
@@ -26,3 +30,15 @@ Note: Files prefixed with a number are executed before ones without.
 
 ### Run seeds
 `knex seed:run`
+
+or
+
+`npm run seed`
+
+## Truncate Data
+`NODE_ENV=production npm run truncate`
+
+## Drop Data
+`NODE_ENV=production npm run drop`
+
+
