@@ -1,7 +1,7 @@
 module.exports = {
   development: {
     client: 'postgresql',
-    connection: 'postgres://ydfgtecgtlffbr:LAxMWV9GpTH4yQPxndggmSxyoY@ec2-54-225-197-143.compute-1.amazonaws.com:5432/d8bt95ojetv6hu?ssl=true',
+    connection: 'postgres://twjsccpnlzixrg:Qk3K4DnuUaizIx0txu3JJ8FDRU@ec2-54-243-125-46.compute-1.amazonaws.com:5432/d5290pcgnuh66f?ssl=true',
     pool: {
       min: 2,
       max: 10
