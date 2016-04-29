@@ -4,7 +4,10 @@
   "description": "Kultiv database migrations and seeds using Knex.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "drop": "node lib/drop",
+    "migrate": "knex migrate:latest",
+    "seed": "knex seed:run",
+    "truncate": "node lib/truncate"
   },
   "repository": {
     "type": "git",
