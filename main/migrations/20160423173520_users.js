@@ -9,7 +9,6 @@ exports.up = function (knex, Promise) {
       table.string('last_name', 50)
       table.string('location', 50)
       table.boolean('is_admin').notNullable().defaultTo(false)
-      table.uuid('auth_token').index().unique().notNullable()
       table.timestamp('created_at').defaultTo(knex.raw('now()')).notNullable()
       table.timestamp('updated_at').defaultTo(knex.raw('now()')).notNullable()
       table.timestamp('deleted_at')
