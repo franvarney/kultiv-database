@@ -2,8 +2,8 @@ exports.up = function (knex, Promise) {
   return Promise.all([
     knex.schema.createTable('user_auth_keys', function (table) {
       table.increments('id').primary()
-      table.integer('user_id').unsigned().references('id').inTable('users')
-      table.uuid('hawk_id').notNullable()
+      table.integer('user_id').unsigned().references('id').inTable('users').index()
+      table.uuid('hawk_id').notNullable().index()
       table.uuid('hawk_key').notNullable()
       table.timestamp('created_at').defaultTo(knex.raw('now()')).notNullable()
     })
